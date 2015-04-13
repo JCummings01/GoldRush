@@ -4,11 +4,9 @@
 .mapImage {
 	width: 100%;
 	position: relative;
-	z-index: -1;
 }
 .map-marker {
 	position: absolute;
-	z-index: 1;
 	width: 25px;
 }
 .map-marker img {

@@ -1,8 +1,8 @@
 
 $(document).on('ready', function() {
 
-  $('.container').on('click', function () {
-  	var mapMarker = $('<div class=map-marker><img src="map-pin.png" /></div>');
+	$('.container').on('click', function () {
+		var mapMarker = $('<div class=map-marker><img src="map-pin.png" /></div>');
 
 	$('.container').append(mapMarker);
 
@@ -10,7 +10,9 @@ $(document).on('ready', function() {
 		'top' : event.pageY,
 		'left' : event.pageX 
 	});
-
-  });
-
+	$(mapMarker).on('click', function(event) {
+		$(this).remove();
+		event.stopPropagation();
+	});
+});
 });
