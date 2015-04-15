@@ -7,8 +7,37 @@
 }
 .map-marker {
 	position: absolute;
-	width: 25px;
+	width: 250px;
+
 }
 .map-marker img {
-	width: 100%;
+	width: 30%;
+	display:inline-block;
+}
+.info-popup {
+	width: 200px;
+	box-shadow: 1px 1px 3px 1px #333;
+	background-color: #ddd;
+	padding: 10px;
+	display: inline-block;
+}
+.edit-description {
+	width: 98%;
+	height: 100px;
+}
+.description-button,
+.confirm-button {
+	padding: 5px 8px;
+	border: none;
+	background-color: #2ea2ea;
+	color: #fff;
+	border-radius: 4px;
+	float: right;
+	font-size: 12px;
+}
+.saved-description {
+	margin: 0;
+}
+.confirm-button {
+	display: none;
 }
