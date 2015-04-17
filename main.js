@@ -41,7 +41,6 @@ $(document).on('ready', function() {
 			mapInfo.css('display', 'inline-block');
 		});
 
-
 		mapMarker.find('img').on('click', function(event) {
 			mapMarker.remove();
 			event.stopPropagation();
