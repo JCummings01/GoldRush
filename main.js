@@ -2,7 +2,7 @@
 $(document).on('ready', function() {
 
 	$('.container').on('click', function () {
-		var mapMarker = $('<div class=map-marker><img class="map-image" src="gold-marker.png" /></div>');
+		var mapMarker = $('<div class=map-marker><img src="x-marker.png" /></div>');
 		var mapInfo = $('<div class="info-popup"></div>');
 		var mapForm = $('<form></form>');
 		var mapDesc = $('<textarea class="edit-description"></textarea>');
